@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "dist/cjs",
+    "tsBuildInfoFile": "dist-temp/cjs/tsconfig.tsbuildinfo"
+  },
+  "exclude": ["src/**/*.spec.ts"]
+}
